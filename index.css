@@ -1,0 +1,290 @@
+html{scroll-behavior: smooth;}
+body{background-color: rgb(100, 150, 85);
+}
+.back_photo{width: 102%;
+height: 20%;
+margin-left: -1%;
+margin-top: -1%;}
+.header_block{width: 101%;
+height: 17%;
+background-color: #517945;
+margin-left: -1px;
+margin-top: -15px;
+position: fixed;      
+    top: 0;               
+    left: 0;              
+    z-index: 9999;}
+.tennis_ball{width: 7%;
+margin-top: 20px;
+margin-left: 10px;
+transform: rotate(0deg);
+transition: transform 0.9s 
+ }
+ .tennis_ball:hover{transform: rotate(360deg)}
+ .tennis_ball:active{transform: scale(0.7);}
+ .jannik_photo{width: 20%;
+height: 50%;
+margin-left: 50%;
+}
+.jannik_block{
+    position: absolute;
+    transition: transform 0.3s;
+    margin-left: 1%;
+
+   
+
+    width: 20%;
+    height: 60%;
+
+    background: rgb(59, 90, 192);
+
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;
+}
+.jannik_block:hover{transform: scale(1.01);
+box-shadow: 1px 1px 20px black;}
+.jannik_block h1{font:50px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(127, 189, 108);
+margin-top:-1%;
+margin-left: 15%;
+}
+.jannik_block p{font:27px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(165, 224, 147);
+margin-left: 5%;
+}
+.jannik_link {font:27px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+margin-left: 20%;
+
+text-decoration: none;
+display: inline-block;
+  white-space: nowrap;
+  transform: translateY(-190px);
+}
+.jannik_link:active {
+    transform: scale(1.2); 
+    transition: transform 3000s; 
+    filter: (#4659c7); 
+
+}
+.jannik_link:hover{filter: brightness(0.8); 
+}
+.jannik_link h1{margin-left: 15%;
+   
+    
+}
+.jannik_block ol{font:27px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(165, 224, 147);
+margin-left: 1%}
+.match_point{color: #335c27;
+margin-left: 8%;
+margin-top: -5%;
+width: 10%;
+height: 30%;
+background-color: rgba(255, 255, 255, 0.644);
+text-align: center;
+font-size:30px ;
+padding-top: 9px;         
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.carier_jannik{margin-left: 46%;
+font:23px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(165, 224, 147);}
+.jannik1{width: 20%;
+height: 60%;
+margin-left: 78%;
+margin-top: -26%;
+border-radius: 10px;
+box-shadow: 0px 0px 40px #000000;}
+.jannik2{width: 20%;
+height: 85%;
+margin-left: 24%;
+transform: translateY(-105.50%);
+border-radius:10px ;
+box-shadow: 0px 0px 40px #000000;
+}
+#jannik_id{scroll-margin-top: 160px;}
+.popa{font-size: 47px;
+color: #30409b;
+margin-left: -3%;
+list-style-type: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.rybakina2{width: 20%;
+height: 85%;
+margin-left: 1%;
+border-radius: 10px;
+margin-top: -15%;
+box-shadow: 0px 0px 20px black;}
+.rybakina_block{
+    position: absolute;
+    transition: transform 0.3s;
+    margin-left: 24%;
+    margin-top: -25%;
+    background: repeating-linear-gradient(
+        90deg,
+        #4d662e,
+        #4d662e 30px,
+        #5a7a3a 30px,
+        #5a7a3a 60px
+    );
+   
+
+    width: 20%;
+    height: 52%;
+
+    
+
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;
+}
+.rybakina_block h1{font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+text-align: center;
+font-size: 47px;
+margin-top: -0.5%;
+}
+.rybakina_block p{font:27px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+margin-left: 5%;
+margin-top: -2%;
+}
+.rybakina_block ul{font:27px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+
+margin-top: -2%;
+}
+.info_rybakina ul{font:26px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+margin-left: 46%;
+margin-top: -25%;
+}
+.info_rybakina .info2{font:26px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+margin-left: 46%;
+margin-top: 5%;
+}
+  .big_text{font-size: 35px;
+list-style-type: none;
+margin-left: -3%;
+}
+.rybakina3{width: 20%;
+height: 90%;
+margin-left: 80%;
+border-radius: 10px;
+margin-top: -30%;
+box-shadow: 0px 0px 20px black;}
+
+.rybakina_link {font:27px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+margin-left: 5%;
+transform: translateY(-190px);
+
+
+
+
+
+text-decoration: none;
+display: inline-block;
+  white-space: nowrap;
+}
+.rybakina_link:active {
+    transform: scale(1.2); 
+    transition: transform 3000s; 
+    filter: (#4659c7); 
+
+}
+.rybakina_link:hover{filter: brightness(0.8); 
+}
+#rybakina_id{scroll-margin-top: 250px;}
+
+
+.byblik_photo{width: 20%;
+height: 85%;
+margin-left: 1%;
+border-radius: 10px;
+margin-top: 10%;
+box-shadow: 0px 0px 20px black;}
+.byblik_block{position: absolute;
+    transition: transform 0.3s;
+    margin-left: 50%;
+    margin-top: -26%;
+    background: repeating-linear-gradient(
+        90deg,
+        #4d662e,
+        #4d662e 30px,
+        #5a7a3a 30px,
+        #5a7a3a 60px
+    );
+   
+
+    width: 20%;
+    height: 52%;
+
+    
+
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;}
+    .info_byblik{font:26px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+margin-left: 23%;
+margin-top: -26%;}
+ .info_byblik1{font:26px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+margin-left: 23%;
+margin-top: 7%;}
+.byblik_block h1{font:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+text-align: center;
+font-size: 39px;
+margin-top: -0.5%;
+}
+.byblik_block p{font:27px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+margin-left: 5%;
+margin-top: -3%;
+}
+.byblik_block ul{font:27px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+
+margin-top: -2%;
+}
+
+.byblik2{width: 20%;
+height: 80%;
+margin-left: 78%;
+border-radius: 10px;
+margin-top: -30%;
+box-shadow: 0px 0px 20px black;}
+.toc{margin-top: 10%;}
+.byblik_link{font:27px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #30409b;
+margin-left: 3%;
+transform: translateY(-190px);
+
+
+
+
+
+
+text-decoration: none;
+display: inline-block;
+  white-space: nowrap;
+}
+.byblik_link:active {
+    transform: scale(1.2); 
+    transition: transform 3000s; 
+    filter: (#4659c7); 
+
+}
+.byblik_link:hover{filter: brightness(0.8); 
+}
+.spypi{height: 100%;
+margin-left: 9.30%;
+transform: translateY(-89%);}
+
+
+
+
+
+
